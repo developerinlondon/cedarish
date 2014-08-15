@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER progrium "progrium@gmail.com"
+FROM ubuntu:14.04
+MAINTAINER Nayeem Syed "nayeem@cronycle.com"
 
 RUN mkdir /tmp/build
 ADD ./stack/ /tmp/build
